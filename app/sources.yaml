@@ -1,0 +1,23 @@
+google_maps:
+  domain: google.com
+  has_discovery: true
+  discover_by: location
+  capabilities: [ratings, text, upvotes, owner_response]
+  supports_days_limit: true
+  has_embedded_reviews: true
+tripadvisor:
+  domain: tripadvisor.com
+  has_discovery: true
+  discover_by: keyword
+  discovery_method: keyword
+  capabilities: [ratings, text, upvotes, owner_response]
+  supports_days_limit: false
+  has_embedded_reviews: false
+yelp:
+  domain: yelp.com
+  has_discovery: true
+  discover_by: keyword
+  discovery_method: keyword
+  capabilities: [ratings, text, upvotes, owner_response]
+  supports_days_limit: false
+  has_embedded_reviews: false

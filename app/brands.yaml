@@ -1,0 +1,54 @@
+brands:
+  Subway:
+    aliases: ["Subways"]
+    menu:
+      "Italian B.M.T.": ["bmt", "b.m.t", "italian bmt", "italian b.m.t."]
+      "Spicy Italian": ["spicy italian"]
+      "Meatball Marinara": ["meatball", "meatball marinara"]
+      "Turkey Breast": ["turkey breast", "turkey sub", "turkey sandwich"]
+      "Chicken Teriyaki": ["teriyaki"]
+      "Steak & Cheese": ["steak and cheese", "steak & cheese", "cheesesteak", "philly"]
+      "Tuna": ["tuna"]
+      "Veggie Delite": ["veggie delite", "veggie sub", "veggie sandwich"]
+      "Cold Cut Combo": ["cold cut"]
+      "Rotisserie-Style Chicken": ["rotisserie"]
+      "Subway Series": ["subway series"]
+      "Footlong": ["footlong", "foot long", "foot-long"]
+      "Cookies": ["cookie", "cookies"]
+      "Breakfast": ["breakfast", "egg and cheese", "egg & cheese"]
+      "Wraps": ["wrap"]
+      "Salads": ["salad"]
+      "Soup": ["soup"]
+  McDonald's:
+    aliases: ["McDonalds", "McD's", "McD", "Mickey D's"]
+    menu:
+      "Big Mac": ["big mac", "bigmac"]
+      "Quarter Pounder": ["quarter pounder", "qp"]
+      "Fries": ["fries", "french fries"]
+      "McNuggets": ["nuggets", "mcnuggets", "mc nuggets"]
+      "McDouble": ["mcdouble"]
+      "McChicken": ["mcchicken"]
+      "Egg McMuffin": ["mcmuffin", "egg mcmuffin"]
+      "Flurry": ["mcflurry", "flurry"]
+  Wendy's:
+    aliases: ["Wendys", "Wendy's"]
+    menu:
+      "Dave's Single": ["dave's single", "single", "dave's double"]
+      "Baconator": ["baconator", "son of baconator"]
+      "Frosty": ["frosty"]
+      "Fries": ["fries", "french fries"]
+      "Spicy Chicken": ["spicy chicken"]
+      "Nuggets": ["nuggets", "spicy nuggets"]
+  Burger King:
+    aliases: ["BK", "BurgerKing", "Burger King's"]
+    menu:
+      "Whopper": ["whopper", "impossible whopper", "double whopper", "triple whopper", "whopper jr", "burger"]
+      "Fries": ["fries", "french fries"]
+      "Onion Rings": ["onion rings", "rings", "zesty sauce"]
+      "Chicken Fries": ["chicken fries"]
+      "Bacon King": ["bacon king"]
+      "Chicken Sandwich": ["chicken sandwich", "royal crispy chicken", "ch'king", "crispy chicken"]
+      "Nuggets": ["nuggets", "chicken nuggets"]
+      "Croissan'wich": ["croissan'wich", "croissant", "breakfast"]
+      "Milkshake": ["shake", "milkshake", "chocolate shake"]
+

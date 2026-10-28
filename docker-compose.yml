@@ -1,0 +1,21 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - BD_MOCK=${BD_MOCK:-True}
+      - BRIGHTDATA_API_KEY=${BRIGHTDATA_API_KEY:-}
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
+  ui:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    environment:
+      - API_BASE_URL=http://api:8000
+    command: streamlit run app/ui/app.py --server.address=0.0.0.0
